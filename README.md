@@ -1,1 +1,0 @@
-# nuhackers-plan-backend
