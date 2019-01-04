@@ -5,7 +5,7 @@
 ```
   Para o desenvolvimento desta nova feature importação em lotes utilizaremos
   IBM Cloud Functions (baseado no Apache OpenWhisk) é uma plataforma Function-as-a-Service(FaaS)
-   que executa funções em resposta a eventos recebidos
+  que executa funções em resposta a eventos recebidos.
 ```
 
 **1-Desenvolver classe Data que recebara os dados brutos vindos do front**
@@ -44,21 +44,22 @@ class Data {
 
 **3-Criar repositorio com as funções que serão criadas no cloud functions**
 
-```Para criar o repositório, entramos no bitbucket e criamos o repositório dentro do projeto nucontdev.
+```
+Para criar o repositório, entramos no bitbucket e criamos o repositório dentro do projeto nucontdev.
 
 ```
 
 **4-Criar no painel do cloud function ou via cli as ações que serão utlizadas**
 
-```ibmcloud fn action create nomeAcao arquivoAcao.js --kind nodejs:8
-
+```
+ibmcloud fn action create nomeAcao arquivoAcao.js --kind nodejs:8
 
 ```
 
 **5-Criar no painel do cloud function ou via cli a API Gateway**
 
-```ibmcloud fn api create -n
-
+```
+ibmcloud fn api create -n
 
 ```
 
