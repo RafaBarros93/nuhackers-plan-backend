@@ -3,7 +3,9 @@
 ## Ambiente de Desenvolvimento
 
 ```
-  Para o desenvolvimento desta nova feature importação em lotes utilizaremos  IBM Cloud Functions (baseado no Apache OpenWhisk) é uma plataforma Function-as-a-Service (FaaS) que executa funções em resposta a eventos recebidos
+  Para o desenvolvimento desta nova feature importação em lotes utilizaremos
+  IBM Cloud Functions (baseado no Apache OpenWhisk) é uma plataforma Function-as-a-Service(FaaS)
+   que executa funções em resposta a eventos recebidos
 ```
 
 **1-Desenvolver classe Data que recebara os dados brutos vindos do front**
@@ -44,7 +46,6 @@ class Data {
 
 ```Para criar o repositório, entramos no bitbucket e criamos o repositório dentro do projeto nucontdev.
 
-
 ```
 
 **4-Criar no painel do cloud function ou via cli as ações que serão utlizadas**
@@ -61,7 +62,7 @@ class Data {
 
 ```
 
-**6- Dentro API Gateway criar os verbos HTTP GET,POST,DELETE,**
+**6- Dentro API Gateway criar os verbos HTTP GET,POST,DELETE, UPDATE**
 
 ```
 swagger: '2.0'
@@ -137,7 +138,6 @@ x-ibm-configuration:
     enabled: true
 basePath: /gws/apigateway/api/ec37ea5058c36e625681a95db348ff7e3eae4b32788f6456072e5ffc4724c038/app
 host: service.us.apiconnect.ibmcloud.com
-
 ```
 
 # Authors
